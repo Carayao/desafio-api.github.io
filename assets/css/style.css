@@ -1,0 +1,17 @@
+body {
+    background-color:rgb(52, 49, 49);
+    color: white;
+}
+
+hr {
+    color: green
+}
+
+.card {
+    background-color: rgba(144, 140, 140, 0.852);
+}
+
+#boton {
+    background-color: rgb(38, 199, 228);
+   
+}
