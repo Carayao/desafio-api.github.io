@@ -8,6 +8,7 @@
     <title>Desafio Api</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -21,23 +22,29 @@
             <div class="card-body">
                 <div class="mb-3">
                     <h3>Pesos CLP</h3>
-                    <input id="monto" value="0" type="number" class="form-control">
+                    <input id="valor" value="0" type="number" class="form-control" name="valor">
                 </div>
-                <div class="mb-3">
-                    Moneda a convertir
-                    <select id="selector" name="selector" class="form-select">
-                        <option>Seleccione Moneda</option>
-                    </select>
+                Moneda a convertir
+                <div id="selector" class="mb-3">
+
+
                 </div>
 
-                <button id="boton" type="submit" class="btn btn-primary"><strong>Buscar</strong></button>
-                <p id="resultado"></p>
+                <button id="btnCalcular" type="submit" class="btn btn-primary"><strong>Buscar</strong></button>
+                <strong><p id="resultado"></p></strong>
             </div>
         </div>
+
+        <div>
+            <canvas id="miGrafico"></canvas>
+        </div>
+
+        
     </center>
 
 
     <script src="./assets/java/script.js"></script>
+
 </body>
 
 </html>

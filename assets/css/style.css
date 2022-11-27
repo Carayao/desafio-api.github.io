@@ -15,3 +15,17 @@ hr {
     background-color: rgb(38, 199, 228);
    
 }
+
+#moneda {
+border-radius: 6px;
+height: 36px;
+}
+
+#miGrafico {
+    max-width: 500px;
+    max-height: 250px;
+}
+
+#resultado {
+    margin-top: 25px;
+}
